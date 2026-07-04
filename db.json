@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "name": "Demo User",
+      "email": "user@example.com",
+      "passwordHash": "$2b$10$d9ECKImufJobksJX.tkdOO0ltCMjU2LpeylbkZT8ayx48MwQh0jqC",
+      "id": "abut5eewjog",
+      "createdAt": "2026-07-04T18:17:38.971Z"
+    },
+    {
+      "name": "Demo Admin",
+      "email": "admin@example.com",
+      "passwordHash": "$2b$10$qdfFn2XpeG1YlnYAB19eLuwz0/f0WbJsrQx9Lf.caCCs/QHuQVdk.",
+      "id": "9xfrzi7e0vi",
+      "createdAt": "2026-07-04T18:17:39.181Z"
+    }
+  ],
+  "analyses": []
+}

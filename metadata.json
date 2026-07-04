@@ -1,0 +1,6 @@
+{
+  "name": "MindTheGap",
+  "description": "An advanced semantic alignment system that evaluates professional experience against target career descriptions, maps structural synergy, and generates highly optimized career roadmaps.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
