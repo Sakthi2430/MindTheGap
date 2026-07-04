@@ -7,7 +7,7 @@ import { createUser, getUserByEmail, createAnalysis, getAnalysesByUserId, getAna
 import { analyzeSkillGap, explainSkillPriority } from './src/analyzer.js';
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT ? parseInt(process.env.PORT, 10) : 3000;
 const JWT_SECRET = process.env.JWT_SECRET || 'fallback-secret-key-123456';
 
 app.use(express.json({ limit: '10mb' }));
