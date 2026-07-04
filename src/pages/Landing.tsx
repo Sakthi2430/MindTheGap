@@ -1140,12 +1140,12 @@ export function Landing({ user, onNavigate }: LandingProps) {
             </div>
 
             <div className="flex gap-4 pt-4">
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" className={`p-2.5 rounded-xl border transition-all ${
+              <a href="https://github.com/Sakthi2430" target="_blank" rel="noopener noreferrer" className={`p-2.5 rounded-xl border transition-all ${
                 theme.isDark ? 'bg-white/5 border-white/10 text-slate-400 hover:text-white hover:bg-white/10' : 'bg-slate-50 border-slate-200 text-slate-600 hover:text-slate-900 hover:bg-slate-100 shadow-sm'
               }`}>
                 <Github className="h-5 w-5" />
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className={`p-2.5 rounded-xl border transition-all ${
+              <a href="https://www.linkedin.com/in/sakthi-ganesh-8990b1322/" target="_blank" rel="noopener noreferrer" className={`p-2.5 rounded-xl border transition-all ${
                 theme.isDark ? 'bg-white/5 border-white/10 text-slate-400 hover:text-white hover:bg-white/10' : 'bg-slate-50 border-slate-200 text-slate-600 hover:text-slate-900 hover:bg-slate-100 shadow-sm'
               }`}>
                 <Linkedin className="h-5 w-5" />
